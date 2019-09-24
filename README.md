@@ -1,3 +1,9 @@
-## Shared analysis docs with M. Rolland
+## M. Rolland doc drafts
 
-[variable coding](docs/variable_coding_2019-09-24.html)
+This is a temporary repo for working documents. Final docs will be archived once analysis is complete.
+
+[protocol_variables]
+
+[imputation_below_lod_2019-09-24](docs/imputation_below_lod_2019-09-24.html)
+
+[variable_coding_2019-09-24](docs/variable_coding_2019-09-24.html)
