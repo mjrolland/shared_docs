@@ -1,8 +1,6 @@
-## M. Rolland shared docs
+## Documents for the 24-09-2019 meeting, growth outcomes VS bisphenols
 
-## For the 24-09-2019 meeting, growth outcomes VS bisphenols
-
-[protocol_variables]
+add link to [protocol_variables] doc
 
 [imputation_below_lod_2019-09-24](docs/imputation_below_lod_2019-09-24.html)
 
