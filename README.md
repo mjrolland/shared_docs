@@ -1,4 +1,4 @@
-## Documents for the 24-09-2019 meeting, growth outcomes VS bisphenols
+## Documents for the 24-09-2019 meeting: growth outcomes VS bisphenols
 
 add link to [protocol_variables] doc
 
