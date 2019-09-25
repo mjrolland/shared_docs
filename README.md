@@ -2,9 +2,7 @@
 
 ### 1. Imputation below LOD
 
-See results and conclusions in doc:
-
-[imputation_below_lod_2019-09-25](docs/imputation_below_lod_2019-09-25.html)
+See results and conclusions in doc: [imputation_below_lod_2019-09-25](docs/imputation_below_lod_2019-09-25.html)
 
 ### 2. Correction for protocol variables
 
@@ -24,7 +22,8 @@ Need to discuss the following questions:
 
 ### 3. Variable coding
 
-See doc:
+See doc: [variable_coding_2019-09-24](docs/variable_coding_2019-09-24.html)
 
-[variable_coding_2019-09-24](docs/variable_coding_2019-09-24.html)
+
+
 
