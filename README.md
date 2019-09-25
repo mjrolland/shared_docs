@@ -1,4 +1,4 @@
-## 27-09-2019 meeting
+## 27-09-2019 meeting agenda
 
 ### 1. Imputation below LOD
 
