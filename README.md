@@ -13,7 +13,7 @@ Results without conclusions:
 
 ### 3. Variable coding
 
-See doc: [variable_coding_2019-09-25](docs/variable_coding_2019-09-25.html)
+See doc: [variable_coding_2019-09-25](docs/variable_coding_2019_09_25.html)
 
 
 
