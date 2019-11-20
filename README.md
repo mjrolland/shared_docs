@@ -1,20 +1,23 @@
-## 27-09-2019 meeting agenda & docs
+## 22-11-2019 meeting agenda & docs
 
-### 1. Imputation below LOD
+### Sepages data
 
-See results and conclusions in doc: [imputation_below_lod_2019-09-25](docs/imputation_below_lod_2019-09-25.html)
+#### 1. Imputation below LOD
 
-### 2. Correction for protocol variables
+Previous doc justifying the fill-in method (no need to review): [imputation_below_lod_2019-11-20](docs/imputation_below_lod_2019-11-20.html)
 
-Results without conclusions:
+Validation of the fill-in method: [fill_in_vs_machine_reading_2019-11-20](docs/fill_in_vs_machine_reading_2019-11-20.html)
 
-* phenols: [protocol_variables_vs_phenols_2019-09-25](docs/protocol_variables_vs_phenols_2019-09-25.html)
-* phthalates: [protocol_variables_vs_phthalates_2019-09-25](docs/protocol_variables_vs_phthalates_2019-09-25.html)
+#### 2. Correction for protocol variables
 
-### 3. Variable coding
+* phenols: [protocol_variables_vs_phenols_2019-11-20](docs/protocol_variables_vs_phenols_2019-11-20.html)
+* phthalates: [protocol_variables_vs_phthalates_2019-11-20](docs/protocol_variables_vs_phthalates_2019-11-20.html)
 
-See doc: [variable_coding_2019-09-25](docs/variable_coding_2019-09-25.html)
+### BPA/BPS VS Growth 
 
+Variable codeing document update: [variable_coding_2019-11-20](docs/variable_coding_2019-11-20.html)
+
+Preliminary results: [multivariate_model_2019-11-20](docs/multivariate_model_2019-11-20.html)
 
 
 
