@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 22-11-2019 meeting agenda & docs
 
 ### Sepages data
@@ -14,6 +15,9 @@ Validation of the fill-in method: [fill_in_vs_machine_reading_2019-11-20](docs/f
 * phthalates: [protocol_variables_vs_phthalates_2019-11-20](docs/protocol_variables_vs_phthalates_2019-11-20.html)
 
 ### BPA/BPS VS Growth 
+=======
+## no docs to share
+>>>>>>> 81ee104980e7559202c46921792f04852564dece
 
 Variable codeing document update: [variable_coding_2019-11-20](docs/variable_coding_2019-11-20.html)
 
