@@ -1,4 +1,4 @@
-## 22-11-2019 meeting agenda & docs
+<!-- ## 22-11-2019 meeting agenda & docs
 
 Here are the different documents for the 22-11-19 meeting.
 
@@ -17,4 +17,6 @@ Here are the different documents for the 22-11-19 meeting.
 ### 2. BPA/BPS VS Growth 
 
 * Variable coding document update: [variable_coding_2019-11-20](docs/variable_coding_2019-11-20.html)
-* Preliminary results: [multivariate_model_2019-11-20](docs/multivariate_model_2019-11-20.html)
+* Preliminary results: [multivariate_model_2019-11-20](docs/multivariate_model_2019-11-20.html) -->
+
+Baby lab data exploration: [data_exploration_2019-11-29](docs/data_exploration_2019-11-29.html)
