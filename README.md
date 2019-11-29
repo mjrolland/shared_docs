@@ -19,4 +19,6 @@ Here are the different documents for the 22-11-19 meeting.
 * Variable coding document update: [variable_coding_2019-11-20](docs/variable_coding_2019-11-20.html)
 * Preliminary results: [multivariate_model_2019-11-20](docs/multivariate_model_2019-11-20.html) -->
 
+# Baby Lab data exploration
+
 Baby lab data exploration: [data_exploration_2019-11-29](docs/data_exploration_2019-11-29.html)
