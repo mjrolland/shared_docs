@@ -17,8 +17,14 @@ Here are the different documents for the 22-11-19 meeting.
 ### 2. BPA/BPS VS Growth 
 
 * Variable coding document update: [variable_coding_2019-11-20](docs/variable_coding_2019-11-20.html)
-* Preliminary results: [multivariate_model_2019-11-20](docs/multivariate_model_2019-11-20.html) -->
+* Preliminary results: [multivariate_model_2019-11-20](docs/multivariate_model_2019-11-20.html) 
 
 # BPA/BPS growth - 12/12/19 meeting
 
-Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html)
+Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html) -->
+
+
+# Protocol variable doc for log transform + addition of pooling technician
+
+* Phenols: [protocol_variables_vs_phenols_2020-01-13](docs/protocol_variables_vs_phenols_2020-01-13.html)
+* Phthalates: [protocol_variables_vs_phthalates_2020-01-13](docs/protocol_variables_vs_phthalates_2020-01-13.html)
