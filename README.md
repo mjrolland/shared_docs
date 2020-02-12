@@ -33,4 +33,6 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 -->
 
-# No docs currently shared
+# Babylab update 13-02-2020
+
+* [babylab_data_exploration_2020-02-12.html](docs/babylab_data_exploration_2020-02-12.html)
