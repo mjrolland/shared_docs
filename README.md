@@ -23,14 +23,11 @@ Here are the different documents for the 22-11-19 meeting.
 
 Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html) -->
 
+# Monthly report March 2020
 
-<!-- 
+* Rapport Matthieu: [progress_report_mr_13-03-2020.html](docs/progress_report_mr_13-03-2020.html)
+* Analyses croissance: [bpa_bps_multivariate_model_2020-03-11.html](docs/multivariate_model_2020-03-11.html)
+* Analyses babylab (si tu veux te rafraîchir la mémoire): [babylab_data_exploration_2020-02-12.html](docs/babylab_data_exploration_2020-02-12.html)
+* Doc pipeline sepages: https://bookdown.org/mj_rolland/sepages_pipeline_doc/
+* Rapport Andres: [DOC A VENIR]()
 
-# Protocol variable doc for log transform + addition of pooling technician
-
-* Phenols: [protocol_variables_vs_phenols_2020-01-13](docs/protocol_variables_vs_phenols_2020-01-13.html)
-* Phthalates: [protocol_variables_vs_phthalates_2020-01-13](docs/protocol_variables_vs_phthalates_2020-01-13.html)
-
--->
-
-No docs to share
