@@ -23,4 +23,6 @@ Here are the different documents for the 22-11-19 meeting.
 
 Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html) -->
 
-# No docs to share
+# Sepages - Eden - Pelagie cohort comparison
+
+Corhort comparison doc: [cohort_comparison_2020-06-10](docs/cohort_comparison_2020-06-10.html)
