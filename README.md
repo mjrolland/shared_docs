@@ -23,6 +23,14 @@ Here are the different documents for the 22-11-19 meeting.
 
 Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html) -->
 
-# Sepages - Eden - Pelagie cohort comparison
+# Meeting Climathes 16/06/2020
 
-Corhort comparison doc: [cohort_comparison_2020-06-10](docs/cohort_comparison_2020-06-10.html)
+## 1. Dataset merge
+
+[dataset_join_2020-06-16](docs/dataset_join_2020-06-16.html)
+
+## 2. Cohort comparison
+
+[cohort_comparison_2020-06-10](docs/cohort_comparison_2020-06-10.html)
+
+
