@@ -13,7 +13,7 @@
 
 <meta name="author" content="M. Rolland" />
 
-<meta name="date" content="2020-06-09" />
+<meta name="date" content="2020-06-16" />
 
 <title>Pelagie, Eden, Sepages data join</title>
 
@@ -48,7 +48,7 @@ code span.ot { color: #007020; }
 <section class="page-header">
 <h1 class="title toc-ignore project-name">Pelagie, Eden, Sepages data join</h1>
 <h4 class="author project-author">M. Rolland</h4>
-<h4 class="date project-date">2020-06-09</h4>
+<h4 class="date project-date">2020-06-16</h4>
 </section>
 
 
@@ -70,7 +70,7 @@ code span.ot { color: #007020; }
 <li><a href="#habitation"><span class="toc-section-number">3.8</span> Habitation</a></li>
 <li><a href="#ses"><span class="toc-section-number">3.9</span> SES</a></li>
 </ul></li>
-<li><a href="#final-vars"><span class="toc-section-number">4</span> Final vars</a></li>
+<li><a href="#final-data-set-creation"><span class="toc-section-number">4</span> Final data set creation</a></li>
 </ul>
 </div>
 
@@ -81,12 +81,12 @@ code span.ot { color: #007020; }
 <p>To do:</p>
 <ul>
 <li>List variables of interest (finalise DAG)</li>
+<li>Alcohol?</li>
 <li>Define
 <ul>
 <li>gestation duration / pregnancy start date</li>
 <li>delivery categorical var</li>
 <li>tobacco var</li>
-<li>education cats</li>
 </ul></li>
 <li>Clarify eden pelagie vars:
 <ul>
@@ -95,6 +95,9 @@ code span.ot { color: #007020; }
 </ul></li>
 <li>Get exposure + geolocation datasets for Eden, Pelagie, Sepages</li>
 <li>harmonise sepages varnames and coding</li>
+<li>Create Sepages health pb var</li>
+<li>Discuss preterm history</li>
+<li>Discuss EDI var</li>
 </ul>
 <div id="datasets" class="section level1">
 <h1><span class="header-section-number">1</span> Datasets</h1>
@@ -318,8 +321,9 @@ code span.ot { color: #007020; }
 <p><code>bhz_8km_cote</code> [numeric] Bhz_8km_cote <code>distancem</code> [numeric] DistanceM</p>
 </div>
 </div>
-<div id="final-vars" class="section level1">
-<h1><span class="header-section-number">4</span> Final vars</h1>
+<div id="final-data-set-creation" class="section level1">
+<h1><span class="header-section-number">4</span> Final data set creation</h1>
+<p>Performed in <code>R/data_preparation.R</code>.</p>
 </div>
 </section>
 
