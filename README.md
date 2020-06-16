@@ -31,6 +31,6 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 ## 2. Cohort comparison
 
-[cohort_comparison_2020-06-16](docs/cohort_comparison_2020-06-10.html)
+[cohort_comparison_2020-06-16](docs/cohort_comparison_2020-06-16.html)
 
 
