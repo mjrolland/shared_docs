@@ -27,7 +27,7 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 ## 1. Last version of the DAG
 
-![](docs/dagitty-model_2020_06_25.png)
+![](docs/dagitty-model_2020-06-25.png)
 
 ## 2. Cohort comparison
 
