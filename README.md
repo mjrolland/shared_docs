@@ -23,14 +23,27 @@ Here are the different documents for the 22-11-19 meeting.
 
 Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html) -->
 
-# Meeting Climathes 16/06/2020
+# Meeting Climathes 26/06/2020
 
-## 1. Dataset merge
+## 1. Last version of the DAG
 
-[dataset_join_2020-06-16](docs/dataset_join_2020-06-16.html)
+[insert]
 
 ## 2. Cohort comparison
 
-[cohort_comparison_2020-06-16](docs/cohort_comparison_2020-06-16.html)
+[cohort_comparison_2020-06-25](docs/cohort_comparison_2020-06-25.html)
 
+## 3. Temperature exposure description 
+
+[description_expos_2020-06-25](docs/description_expos_2020-06-25.html)
+
+## 4. To do
+
+* continue exposure description (what?)
+* finalise Sepages variables (check notes from previous meeting with Johanna: marital status, country of birth etc)
+* write to pelagie with the list of questions (cf. project log + (github note)[https://github.com/users/matthieugold/projects/16])
+* look at humidity, pollution, location (urbain/rural) 
+* write analysis plan
+  * define what indicators for temperature?
+* do some methods bibliography
 
