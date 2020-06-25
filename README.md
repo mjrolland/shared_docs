@@ -41,7 +41,7 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 * continue exposure description (what?)
 * finalise Sepages variables (check notes from previous meeting with Johanna: marital status, country of birth etc)
-* write to pelagie with the list of questions (cf. project log + (github note)[https://github.com/users/matthieugold/projects/16])
+* write to pelagie with the list of questions (cf. project log + [github note](https://github.com/users/matthieugold/projects/16))
 * look at humidity, pollution, location (urbain/rural) 
 * write analysis plan
   * define what indicators for temperature?
