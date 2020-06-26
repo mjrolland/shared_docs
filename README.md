@@ -42,7 +42,7 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 [description_expos_2020-06-25](docs/description_expos_2020-06-25.html)
 
-## 4. To do
+## 4. To do/questions
 
 * continue exposure description (what?)
 * finalise Sepages variables (check notes from previous meeting with Johanna: marital status, country of birth etc)
@@ -51,4 +51,5 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 * write analysis plan
   * define what indicators for temperature?
 * do some methods bibliography
+* where do i get the adresses for doing maps?
 
