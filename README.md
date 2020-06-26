@@ -38,6 +38,8 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 ## 3. Temperature exposure description 
 
+* Confirm we just use the `*_gro` files
+
 [description_expos_2020-06-25](docs/description_expos_2020-06-25.html)
 
 ## 4. To do
