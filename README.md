@@ -29,6 +29,7 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 * Parity -> gest age?
 * Pollution / humidity -> gest age?
+* NDVI?
 
 ![](docs/dagitty-model_2020-06-25.png)
 
