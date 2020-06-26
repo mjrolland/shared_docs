@@ -141,7 +141,7 @@ data/expos/
 
 ```
 
-## 4. To do/questions
+## 5. To do/questions
 
 * continue exposure description (what?)
 * finalise Sepages variables (check notes from previous meeting with Johanna: marital status, country of birth etc)
