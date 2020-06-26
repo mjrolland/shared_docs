@@ -42,6 +42,105 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 [description_expos_2020-06-25](docs/description_expos_2020-06-25.html)
 
+## 4. Discuss files
+
+* adresses?
+* difference between `Expo_prenat_*` and `Temp*` 
+
+```
+> fs::dir_tree(path = "data/expos/")
+data/expos/
++-- Expo_prenat_EDEN
+|   +-- expo_prenat_EDEN_SAFRAN_03062020.rds
+|   +-- expo_prenat_EDEN_temp1km_03062020.rds
+|   \-- expo_prenat_EDEN_temp200m_03062020.rds
++-- Expo_prenat_PELAGIE
+|   +-- expo_prenat_PELAGIE_gro_SAFRAN_03062020.rds
+|   +-- expo_prenat_PELAGIE_gro_temp1km_03062020.rds
+|   +-- expo_prenat_PELAGIE_gro_temp200m_03062020.rds
+|   +-- expo_prenat_PELAGIE_Q2_SAFRAN_03062020.rds
+|   +-- expo_prenat_PELAGIE_Q2_temp1km_03062020.rds
+|   +-- expo_prenat_PELAGIE_Q2_temp200m_03062020.rds
+|   +-- expo_prenat_PELAGIE_Q6_SAFRAN_03062020.rds
+|   +-- expo_prenat_PELAGIE_Q6_temp1km_03062020.rds
+|   \-- expo_prenat_PELAGIE_Q6_temp200m_03062020.rds
++-- fichier_eden_pr_calcul_01062020.rds
++-- fichier_pelagie_grossesse_pr_calcul_01062020.rds
++-- fichier_pelagie_Q2_pr_calcul_01062020.rds
++-- fichier_pelagie_Q6_pr_calcul_01062020.rds
++-- NDVI_EDEN
+|   \-- NDVI_EDEN_03062020.rds
++-- NDVI_PELAGIE
+|   +-- NDVI_PELAGIE_gro_03062020.rds
+|   +-- NDVI_PELAGIE_Q2_03062020.rds
+|   \-- NDVI_PELAGIE_Q6_03062020.rds
++-- SAFRAN_EDEN
+|   +-- EDEN_dates_01062020.rds
+|   +-- EDEN_HA_01062020.rds
+|   +-- EDEN_HR_01062020.rds
+|   \-- EDEN_vent_01062020.rds
++-- SAFRAN_PELAGIE
+|   +-- PELAGIE_gro_dates_01062020.rds
+|   +-- PELAGIE_gro_HA_01062020.rds
+|   +-- PELAGIE_gro_HR_01062020.rds
+|   +-- PELAGIE_gro_vent_01062020.rds
+|   +-- PELAGIE_Q2_dates_01062020.rds
+|   +-- PELAGIE_Q2_HA_01062020.rds
+|   +-- PELAGIE_Q2_HR_01062020.rds
+|   +-- PELAGIE_Q2_vent_01062020.rds
+|   +-- PELAGIE_Q6_dates_01062020.rds
+|   +-- PELAGIE_Q6_HA_01062020.rds
+|   +-- PELAGIE_Q6_HR_01062020.rds
+|   \-- PELAGIE_Q6_vent_01062020.rds
++-- Temp1km_EDEN
+|   +-- eden_temp_1km_matrices_dates_01062020.rds
+|   +-- eden_temp_1km_matrices_tmax_01062020.rds
+|   +-- eden_temp_1km_matrices_tmean_01062020.rds
+|   \-- eden_temp_1km_matrices_tmin_01062020.rds
++-- Temp1km_PELAGIE
+|   +-- PELAGIE_gro_temp_1km_matrices_dates_01062020.rds
+|   +-- PELAGIE_gro_temp_1km_matrices_tmax_01062020.rds
+|   +-- PELAGIE_gro_temp_1km_matrices_tmean_01062020.rds
+|   +-- PELAGIE_gro_temp_1km_matrices_tmin_01062020.rds
+|   +-- PELAGIE_Q2_temp_1km_matrices_dates_01062020.rds
+|   +-- PELAGIE_Q2_temp_1km_matrices_tmax_01062020.rds
+|   +-- PELAGIE_Q2_temp_1km_matrices_tmean_01062020.rds
+|   +-- PELAGIE_Q2_temp_1km_matrices_tmin_01062020.rds
+|   +-- PELAGIE_Q6_temp_1km_matrices_dates_01062020.rds
+|   +-- PELAGIE_Q6_temp_1km_matrices_tmax_01062020.rds
+|   +-- PELAGIE_Q6_temp_1km_matrices_tmean_01062020.rds
+|   \-- PELAGIE_Q6_temp_1km_matrices_tmin_01062020.rds
++-- Temp200m_EDEN
+|   +-- eden_temp_200m_matrices_dates_02062020.rds
+|   +-- eden_temp_200m_matrices_tmax_02062020.rds
+|   +-- eden_temp_200m_matrices_tmean_02062020.rds
+|   \-- eden_temp_200m_matrices_tmin_02062020.rds
++-- Temp200m_PELAGIE
+|   +-- PELAGIE_gro_temp_200m_matrices_dates_02062020.rds
+|   +-- PELAGIE_gro_temp_200m_matrices_tmax_02062020.rds
+|   +-- PELAGIE_gro_temp_200m_matrices_tmean_02062020.rds
+|   +-- PELAGIE_gro_temp_200m_matrices_tmin_02062020.rds
+|   +-- PELAGIE_Q2_temp_200m_matrices_dates_02062020.rds
+|   +-- PELAGIE_Q2_temp_200m_matrices_tmax_02062020.rds
+|   +-- PELAGIE_Q2_temp_200m_matrices_tmean_02062020.rds
+|   +-- PELAGIE_Q2_temp_200m_matrices_tmin_02062020.rds
+|   +-- PELAGIE_Q6_temp_200m_matrices_dates_02062020.rds
+|   +-- PELAGIE_Q6_temp_200m_matrices_tmax_02062020.rds
+|   +-- PELAGIE_Q6_temp_200m_matrices_tmean_02062020.rds
+|   \-- PELAGIE_Q6_temp_200m_matrices_tmin_02062020.rds
++-- Urba_EDEN
+|   +-- EDEN_urba_03062020.rds
+|   \-- EDEN_urba_dates_03062020.rds
+\-- Urba_PELAGIE
+    +-- PELAGIE_gro_urba_03062020.rds
+    +-- PELAGIE_gro_urba_dates_03062020.rds
+    +-- PELAGIE_Q2_urba_03062020.rds
+    +-- PELAGIE_Q2_urba_dates_03062020.rds
+    +-- PELAGIE_Q6_urba_03062020.rds
+    \-- PELAGIE_Q6_urba_dates_03062020.rds
+
+```
+
 ## 4. To do/questions
 
 * continue exposure description (what?)
@@ -51,5 +150,5 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 * write analysis plan
   * define what indicators for temperature?
 * do some methods bibliography
-* where do i get the adresses for doing maps?
+
 
