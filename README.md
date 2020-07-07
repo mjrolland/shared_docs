@@ -25,7 +25,25 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 # Meeting Climathes 07/07/2020
 
+## 1. Add Sepages to continuous data description
 
+[description_temperature_2020_07_07](docs/description_temperature_2020_07_07.html)
+
+## 2. Windows data description
+
+![](docs/AB060578_window.png)
+
+[eden_windows_description_2020_07_07](docs/eden_windows_description_2020_07_07.html)
+[pelagie_windows_description_2020_07_07](pelagie_windows_description_2020_07_07.html)
+[sepages_windows_description_2020_07_07](docs/sepages_windows_description_2020_07_07.html)
+
+## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
+
+[check_for_preg_data_in_q2_q6_2020_07_07](check_for_preg_data_in_q2_q6_2020_07_07.html)
+
+## 4. Biblio
+
+[notes_biblio_2020_07_07](notes_biblio_2020_07_07.html)
 
 ## 5. To do/questions
 
@@ -36,5 +54,19 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 * write analysis plan
   * define what indicators for temperature?
 * do some methods bibliography
+
+* Finalise model vars with final DAG
+* why PTB y/n and not gestation duration continuous? 
+* quel est l'interet de notre analyse par rapport aux nombreuses autres similaires? (population francaise, modèles de température plus précis, cohort data: individual level data (!= population level data), ajustement sur de nbreux facteurs)
+* pollution?
+* will we need the windows? as dlnm can handle continuous time series
+* interessant d'utiliser l'expo pré conception? ([@guo_association_2018])
+* c'est quoi la référence temporelle? LMP ou date of birth? ie on regarde la température en jours avant la naissance ou en jours depuis le LMP?
+* pk focaliser sur température et pas température/pollution/ndvi? qi on met les 3 ds le modèle
+
+Timing:
+
+* finish var table doc
+* write analysis plan
 
 
