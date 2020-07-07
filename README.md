@@ -95,7 +95,7 @@ Need to read papers from `Review-2020_04_08.xlsx`
 
 ## 7. To do
 
-* finish var table doc
+* finish var table doc => **naming convention?**
 * read papers from `Review-2020_04_08.xlsx`
 * write analysis plan
 * covariate coding, lag, etc
