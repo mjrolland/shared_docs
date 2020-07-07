@@ -59,7 +59,7 @@ Ancestor of outcome:
 
 ## 2. Added Sepages to continuous data description
 
-[description_temperature_2020_07_07](docs/description_temperature_2020_07_07.html)
+[description_temperature_2020-07-07](docs/description_temperature_2020-07-07.html)
 
 ## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
 
