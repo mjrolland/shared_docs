@@ -27,16 +27,45 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 Since last time:
 
+* Progress on DAG
 * Sepages exps
 * Windows data description
 * Pelagie: looking for pregnancy data in Q2 and Q6
 * Bibliography (preterm/temp, dlnm)
 
-## 1. Add Sepages to continuous data description
+## 1. Final DAG
+
+![](docs/dagitty-model_2020-07-07.png)
+
+Confounder:
+
+* Humidity
+* Season of conception
+* Living place (urban/rural, NVDI, altitude)
+* Maternal education
+* Air pollution (?)
+
+Ancestor of outcome:
+
+* Maternal age
+* Tobacco/alcohol
+* Parity
+* Maternal health pb during pregnancy
+* Maternal pre-pregnancy BMI
+* Maternal pregnancy weight gain
+* Preterm history?
+
+=> Decide coding, lag periods, etc
+
+## 2. Added Sepages to continuous data description
 
 [description_temperature_2020_07_07](docs/description_temperature_2020_07_07.html)
 
-## 2. Windows data description
+## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
+
+[check_for_preg_data_in_q2_q6_2020_07_07](docs/check_for_preg_data_in_q2_q6_2020_07_07.html)
+
+## 4. Windows data description
 
 ![](docs/AB060578_window.png)
 
@@ -44,25 +73,13 @@ Since last time:
 * Pelagie: [pelagie_windows_description_2020_07_07](docs/pelagie_windows_description_2020_07_07.html)  
 * Sepages: [sepages_windows_description_2020_07_07](docs/sepages_windows_description_2020_07_07.html)  
 
-## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
-
-[check_for_preg_data_in_q2_q6_2020_07_07](docs/check_for_preg_data_in_q2_q6_2020_07_07.html)
-
-## 4. Biblio
+## 5. Biblio
 
 [notes_biblio_2020_07_07](docs/notes_biblio_2020_07_07.html)
 
 Need to read papers from `Review-2020_04_08.xlsx`
 
-## 6. Final DAG
-
-![](docs/dagitty-model_2020-07-07.png)
-
-Final var selection:
-
-* 
-
-## 7. Model
+## 6. Model
 
 * why PTB y/n and not gestation duration continuous?
 * will we need the windows? as dlnm can handle continuous time series
@@ -70,16 +87,16 @@ Final var selection:
 * c'est quoi la référence temporelle? LMP ou date of birth? ie on regarde la température en jours avant la naissance ou en jours depuis le LMP?
 * pk focaliser sur température et pas température/pollution/ndvi? qi on met les 3 ds le modèle
 
-## 8. Questions
+## 7. Questions
 
 * what about humidity, pollution, location (urbain/rural) data? 
 * quel est l'interet de notre analyse par rapport aux nombreuses autres similaires? (population francaise, modèles de température plus précis, cohort data: individual level data (!= population level data), ajustement sur de nbreux facteurs)
 
-## 9. To do
+## 8. To do
 
 * read papers from `Review-2020_04_08.xlsx`
 * write analysis plan
 * finish var table doc
 * finalise Sepages variables/doc/merge
-
+* covariate coding, lag, etc
 
