@@ -63,6 +63,8 @@ Ancestor of outcome:
 
 ## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
 
+* Need to decide what to do when data in (gro and Q2) or (gro and Q6)
+
 [check_for_preg_data_in_q2_q6_2020_07_07](docs/check_for_preg_data_in_q2_q6_2020_07_07.html)
 
 ## 4. Windows data description
@@ -73,30 +75,30 @@ Ancestor of outcome:
 * Pelagie: [pelagie_windows_description_2020_07_07](docs/pelagie_windows_description_2020_07_07.html)  
 * Sepages: [sepages_windows_description_2020_07_07](docs/sepages_windows_description_2020_07_07.html)  
 
+=> RAS
+
 ## 5. Biblio
 
 [notes_biblio_2020_07_07](docs/notes_biblio_2020_07_07.html)
 
 Need to read papers from `Review-2020_04_08.xlsx`
 
-## 6. Model
+## 6. Questions
 
 * why PTB y/n and not gestation duration continuous?
 * will we need the windows? as dlnm can handle continuous time series
 * interessant d'utiliser l'expo pré conception? ([@guo_association_2018])
 * c'est quoi la référence temporelle? LMP ou date of birth? ie on regarde la température en jours avant la naissance ou en jours depuis le LMP?
-* pk focaliser sur température et pas température/pollution/ndvi? qi on met les 3 ds le modèle
-
-## 7. Questions
-
 * what about humidity, pollution, location (urbain/rural) data? 
 * quel est l'interet de notre analyse par rapport aux nombreuses autres similaires? (population francaise, modèles de température plus précis, cohort data: individual level data (!= population level data), ajustement sur de nbreux facteurs)
+* pk focaliser sur température et pas température/pollution/ndvi? qi on met les 3 ds le modèle
 
-## 8. To do
+## 7. To do
 
+* finish var table doc
 * read papers from `Review-2020_04_08.xlsx`
 * write analysis plan
-* finish var table doc
-* finalise Sepages variables/doc/merge
 * covariate coding, lag, etc
+* define sensitivity analyses
+
 
