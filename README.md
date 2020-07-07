@@ -25,6 +25,13 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 # Meeting Climathes 07/07/2020
 
+Since last time:
+
+* Sepages exps
+* Windows data description
+* 
+* Bibliography (preterm/temp, dlnm)
+
 ## 1. Add Sepages to continuous data description
 
 [description_temperature_2020_07_07](docs/description_temperature_2020_07_07.html)
@@ -33,17 +40,17 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 ![](docs/AB060578_window.png)
 
-[eden_windows_description_2020_07_07](docs/eden_windows_description_2020_07_07.html)
-[pelagie_windows_description_2020_07_07](pelagie_windows_description_2020_07_07.html)
-[sepages_windows_description_2020_07_07](docs/sepages_windows_description_2020_07_07.html)
+* Eden: [eden_windows_description_2020_07_07](docs/eden_windows_description_2020_07_07.html)  
+* Pelagie: [pelagie_windows_description_2020_07_07](docs/pelagie_windows_description_2020_07_07.html)  
+* Sepages: [sepages_windows_description_2020_07_07](docs/sepages_windows_description_2020_07_07.html)  
 
 ## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
 
-[check_for_preg_data_in_q2_q6_2020_07_07](check_for_preg_data_in_q2_q6_2020_07_07.html)
+[check_for_preg_data_in_q2_q6_2020_07_07](docs/check_for_preg_data_in_q2_q6_2020_07_07.html)
 
 ## 4. Biblio
 
-[notes_biblio_2020_07_07](notes_biblio_2020_07_07.html)
+[notes_biblio_2020_07_07](docs/notes_biblio_2020_07_07.html)
 
 ## 5. To do/questions
 
