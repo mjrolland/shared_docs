@@ -52,28 +52,34 @@ Since last time:
 
 [notes_biblio_2020_07_07](docs/notes_biblio_2020_07_07.html)
 
-## 5. To do/questions
+Need to read papers from `Review-2020_04_08.xlsx`
 
-* continue exposure description (what?)
-* finalise Sepages variables (check notes from previous meeting with Johanna: marital status, country of birth etc)
-* write to pelagie with the list of questions (cf. project log + [github note](https://github.com/users/matthieugold/projects/16))
-* look at humidity, pollution, location (urbain/rural) 
-* write analysis plan
-  * define what indicators for temperature?
-* do some methods bibliography
+## 6. Final DAG
 
-* Finalise model vars with final DAG
-* why PTB y/n and not gestation duration continuous? 
-* quel est l'interet de notre analyse par rapport aux nombreuses autres similaires? (population francaise, modèles de température plus précis, cohort data: individual level data (!= population level data), ajustement sur de nbreux facteurs)
-* pollution?
+![](docs/dagitty-model_2020-07-07.png)
+
+Final var selection:
+
+* 
+
+## 7. Model
+
+* why PTB y/n and not gestation duration continuous?
 * will we need the windows? as dlnm can handle continuous time series
 * interessant d'utiliser l'expo pré conception? ([@guo_association_2018])
 * c'est quoi la référence temporelle? LMP ou date of birth? ie on regarde la température en jours avant la naissance ou en jours depuis le LMP?
 * pk focaliser sur température et pas température/pollution/ndvi? qi on met les 3 ds le modèle
 
-Timing:
+## 8. Questions
 
-* finish var table doc
+* what about humidity, pollution, location (urbain/rural) data? 
+* quel est l'interet de notre analyse par rapport aux nombreuses autres similaires? (population francaise, modèles de température plus précis, cohort data: individual level data (!= population level data), ajustement sur de nbreux facteurs)
+
+## 9. To do
+
+* read papers from `Review-2020_04_08.xlsx`
 * write analysis plan
+* finish var table doc
+* finalise Sepages variables/doc/merge
 
 
