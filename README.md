@@ -29,7 +29,7 @@ Since last time:
 
 * Sepages exps
 * Windows data description
-* 
+* Pelagie: looking for pregnancy data in Q2 and Q6
 * Bibliography (preterm/temp, dlnm)
 
 ## 1. Add Sepages to continuous data description
