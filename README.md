@@ -9,7 +9,13 @@
 
 ## Questions
 
-* discuss questions on the different docs
-* 
+* discuss NDVI questions on doc
+* multivariate models:
+  * check the model without exp results with litterature
+  * discuss NDVI (!= between univariate and multivariate)
+  * 
 
 ## To do 
+
+* NDVI
+* DLNM
