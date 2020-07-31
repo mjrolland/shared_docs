@@ -23,14 +23,82 @@ Here are the different documents for the 22-11-19 meeting.
 
 Last version of multivariate models: [multivariate_model_2019-12-11](docs/multivariate_model_2019-12-11.html) -->
 
-# Meeting Climathes 16/06/2020
+# Meeting Climathes 07/07/2020
 
-## 1. Dataset merge
+Since last time:
 
-[dataset_join_2020-06-16](docs/dataset_join_2020-06-16.html)
+* Progress on DAG
+* Sepages exps
+* Windows data description
+* Pelagie: looking for pregnancy data in Q2 and Q6
+* Bibliography (preterm/temp, dlnm)
 
-## 2. Cohort comparison
+## 1. Final DAG
 
-[cohort_comparison_2020-06-16](docs/cohort_comparison_2020-06-16.html)
+![](docs/dagitty-model_2020-07-07.png)
+
+Confounder:
+
+* Humidity
+* Season of conception
+* Living place (urban/rural, NVDI, altitude)
+* Maternal education
+* Air pollution (?)
+
+Ancestor of outcome:
+
+* Maternal age
+* Tobacco/alcohol
+* Parity
+* Maternal health pb during pregnancy
+* Maternal pre-pregnancy BMI
+* Maternal pregnancy weight gain
+* Preterm history?
+
+=> Decide coding, lag periods, etc
+
+## 2. Added Sepages to continuous data description
+
+[description_temperature_2020-07-07](docs/description_temperature_2020-07-07.html)
+
+## 3. Pelagie: checking for pregnancy data in Pelagie Q2 and Q6
+
+* Need to decide what to do when data in (gro and Q2) or (gro and Q6)
+
+[check_for_preg_data_in_q2_q6_2020_07_07](docs/check_for_preg_data_in_q2_q6_2020_07_07.html)
+
+## 4. Windows data description
+
+![](docs/AB060578_window.png)
+
+* Eden: [eden_windows_description_2020_07_07](docs/eden_windows_description_2020_07_07.html)  
+* Pelagie: [pelagie_windows_description_2020_07_07](docs/pelagie_windows_description_2020_07_07.html)  
+* Sepages: [sepages_windows_description_2020_07_07](docs/sepages_windows_description_2020_07_07.html)  
+
+=> RAS
+
+## 5. Biblio
+
+[notes_biblio_2020_07_07](docs/notes_biblio_2020_07_07.html)
+
+Need to read papers from `Review-2020_04_08.xlsx`
+
+## 6. Questions
+
+* why PTB y/n and not gestation duration continuous?
+* will we need the windows? as dlnm can handle continuous time series
+* interessant d'utiliser l'expo pré conception? ([@guo_association_2018])
+* c'est quoi la référence temporelle? LMP ou date of birth? ie on regarde la température en jours avant la naissance ou en jours depuis le LMP?
+* what about humidity, pollution, location (urbain/rural) data? 
+* quel est l'interet de notre analyse par rapport aux nombreuses autres similaires? (population francaise, modèles de température plus précis, cohort data: individual level data (!= population level data), ajustement sur de nbreux facteurs)
+* pk focaliser sur température et pas température/pollution/ndvi? qi on met les 3 ds le modèle
+
+## 7. To do
+
+* finish var table doc => **naming convention?**
+* read papers from `Review-2020_04_08.xlsx`
+* write analysis plan
+* covariate coding, lag, etc
+* define sensitivity analyses
 
 
