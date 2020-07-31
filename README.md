@@ -34,5 +34,8 @@ Last version of multivariate models: [multivariate_model_2019-12-11](docs/multiv
 
 ## Questions
 
+* discuss questions on the different docs
+* 
+
 ## To do 
 
