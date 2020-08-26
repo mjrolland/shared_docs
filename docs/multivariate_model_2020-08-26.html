@@ -374,18 +374,18 @@ summary {
 <h1>Discussion points:</h1>
 <ul>
 <li>is it OK we focus first on the logistic model and then once these results are OK we do the time to event model?</li>
-<li>which data do we keep in the forward and backward analyses? all data with NA is lost
-<ul>
-<li>forward: daily or weekly? what period?</li>
-<li>backward: same 2 questions as above</li>
+<li>wouldn’t trajectory analysis be an interesting analysis alternative?</li>
+<li>which data do we keep in the forward and backward analyses? all data with NA is lost</li>
+<li>why use weekly and not daily?</li>
+<li>forward: what period?</li>
+<li>backward: what period?</li>
 <li>how to fill in NAs?</li>
-</ul></li>
 </ul>
 <pre><code>Regarding this point, for the forward analysis I would:
-  - use the continuous (daily) data as it does not impact the degrees of freedom instead of weekly
-  - regarding NAs I see two options
-    - limit from week 0 to 28 (or something restrictive)
-    - use continuous data from week 0 to N even when gestation duration &lt; N gw (WINDOW DATA AFTER BIRTH NOT AVAILABLE IN EMIE&#39;S DATA BUT DOABLE)
+- use the continuous (daily) data as it does not impact the degrees of freedom instead of weekly
+- regarding NAs I see two options
+- limit from week 0 to 28 (or something restrictive)
+- use continuous data from week 0 to N even when gestation duration &lt; N gw (WINDOW DATA AFTER BIRTH NOT AVAILABLE IN EMIE&#39;S DATA BUT DOABLE)
 
 Same for backward analysis + need to define study period.</code></pre>
 <ul>
@@ -421,7 +421,21 @@ Same for backward analysis + need to define study period.</code></pre>
 </div>
 <div id="model-with-exposure" class="section level1">
 <h1>Model with exposure</h1>
-<p>[Once we have talked with Johanna]</p>
+<p>[Not presented for now]</p>
+<p>DLNM vignette for our situation <code>vignette(&quot;dlnmExtended&quot;)</code></p>
+<p>Method notes Otana:</p>
+<blockquote>
+<ul>
+<li>Relationships between term birthweight and meteorological exposures were initially modelled with minimal adjustment, and then modelled in a fully-adjusted framework.</li>
+<li>The minimally-adjusted models were built for each exposure separately (mean temperature, standard deviation of temperature, mean humidity, and standard deviation of humidity), adjusting only for gestational age at birth.</li>
+<li>Fully-adjusted models contained mean temperature, mean humidity, standard deviation of temperature, and standard deviation of humidity as simultaneous exposures, with adjustment for the aforementioned possible confounders.</li>
+<li>We used distributed lag models with an exposure matrix of the first 37 gestational weeks for each meteorological exposure.</li>
+<li>The exposure-response relationship was modelled linearly, and the lag-response relationship (reflecting the impact of exposure timing) was modelled with natural cubic splines.</li>
+<li>Degrees of freedom were tested from 2 to 6, and chosen by minimizing the Akaike information criterion (AIC) in minimally-adjusted models for each exposure.</li>
+<li>Then the selected values for degrees of freedom were used in building the fully-adjusted models, which contained all four exposures simultaneously.</li>
+<li>We also checked for non-linearity of the exposure-response relationship with natural cubic splines, again testing degrees of freedom from 2 to 6 and choosing the degrees of freedom that minimized the AIC in minimal models.</li>
+</ul>
+</blockquote>
 </div>
 
 
