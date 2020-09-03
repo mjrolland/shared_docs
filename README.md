@@ -1,4 +1,4 @@
-# For Claire 02-09-2020
+# For Johanna 03-09-2020
 
-* last babylab analysis: [link to doc](docs/data_exploration_2020-09-02.html)
+* multivariate models: [link to doc](docs/multivariate_model_2020-09-03.html)
 
