@@ -1,4 +1,4 @@
-# For Johanna 03-09-2020
+# For Claire 09-09-2020
 
-* multivariate models: [link to doc](docs/multivariate_model_2020-09-03.html)
+* multivariate models: [link to doc](docs/project_log_babylab.html)
 
