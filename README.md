@@ -1,4 +1,4 @@
-# For Claire 09-09-2020
+# Pour anne et Johanna
 
-* multivariate models: [link to doc](docs/project_log_babylab.html)
+* Test linéarité: [link to doc](docs/test_linearite.html)
 
