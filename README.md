@@ -1,4 +1,4 @@
-# Johanna meeting 08-10-2020
+# For Claire
 
-* Discussion p95 for heatwave definition: [link to doc](docs/p95_definition.html)
+* Correlations CBCL/eyetracker [link to doc](docs/data_exploration_2020-10-12.html)
 
