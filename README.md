@@ -1,4 +1,4 @@
-# For Claire
+# For Johanna meeting 20-10-2020
 
-* Correlations CBCL/eyetracker [link to doc](docs/data_exploration_2020-10-12.html)
+* Temp DNLMs [link to doc](docs/multivariate_model_2020-10-20.html)
 
