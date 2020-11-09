@@ -1,4 +1,4 @@
-# Meeting David + Claire 11-09-2020
+# Meeting David + Claire - 11/09/2020
 
 Ordre du jour:
 
