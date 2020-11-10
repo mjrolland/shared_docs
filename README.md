@@ -8,7 +8,7 @@ Ordre du jour:
 
 Documents:
 
-* Dernière version des analyses descriptives: [lien vers doc](docs/data_exploration_2020-11-09.html)
+* Dernière version des analyses descriptives: [lien vers doc](docs/data_exploration_2020-11-10.html)
 * DAG: [lien vers DAG utilisé pour analyses CBCL](docs/dag_ariane.png)
 
 
