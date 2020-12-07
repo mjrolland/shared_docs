@@ -1,6 +1,6 @@
-# Data cleaning babylab
+# Pour ariane
 
-[lien vers doc](docs/data_cleaning_2020-12-04.html)
+[lien vers doc](docs/multivariate_model_2020-11-17.html)
 
 
 
