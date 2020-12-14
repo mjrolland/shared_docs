@@ -1,6 +1,10 @@
-# Pour ariane
+# 15/12/2020 meeting with Claire
 
-[lien vers doc](docs/multivariate_model_2020-11-17.html)
+1. Updated data exploration doc: [link to doc]()
+2. Latent variable doc: [link to doc]()
+3. Babylab preprocessing doc: [link to doc]()
+4. DAG + variable coding doc: [link to doc]()
+5. Missing data doc: [link to doc]()
 
 
 
