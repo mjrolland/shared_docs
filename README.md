@@ -1,6 +1,6 @@
 # for Claire
 
-Babylab model choice: [link to doc](model_choice.html)
+Babylab model choice: [link to doc](docs/model_choice.html)
 
 
 
