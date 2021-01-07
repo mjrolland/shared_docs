@@ -1,6 +1,6 @@
 # for Claire
 
-Babylab model choice: [link to doc](docs/model_choice.html)
+Babylab data exploration: [link to doc](docs/data_exploration_2021-01-07.html)
 
 
 
