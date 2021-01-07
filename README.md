@@ -1,4 +1,4 @@
-# for meeting with Claire 08-01-2020
+# for meeting with Claire 08-01-2021
 
 * Updated babylab data exploration doc: [link to doc](docs/data_exploration_2021-01-07.html)
 * Gestational age at sampling vs level within sampling periods (**non rédigé**): [link to doc](docs/exp_level_vs_timing_2021-01-07.html) 
