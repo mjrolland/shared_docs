@@ -1,10 +1,16 @@
-# for meeting with Claire 08-01-2021
+# Meeting with Johanna 18-01-2021
 
-* Updated babylab data exploration doc: [link to doc](docs/data_exploration_2021-01-07.html)
-* Gestational age at sampling vs level within sampling periods (**non rédigé**): [link to doc](docs/exp_level_vs_timing_2021-01-07.html) 
-* Updated variable coding doc: [link to doc](docs/dag_var_coding_2021-01-07.html)
-* Missing data doc updated: [link to doc](docs/missing_data_2021-01-07.html)  
-* Single compound analysis updated: [link to doc](docs/single_compound_2021-01-08.html)
+* Humidity: [link to doc](docs/humidity_2021-01-18.html)
+* Stations: [link to doc](docs/meteo_france_2021-01-18.html)
+* To do:
+  * validate station selection => p95 for ehf
+  * get departments for geocodes
+  * compute ehf
+  * validate/explore/describe ehf
+  * do dlnm with ehf
+  * finalise results
+  * finalise paper tables and figures
+  * write m&m + r
 
 
 
