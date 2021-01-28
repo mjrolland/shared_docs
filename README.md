@@ -1,5 +1,7 @@
-# Meeting with Claire 22-01-2021
+# Docs for claire
 
-* DAG + coding: [link to updated doc](docs/dag_var_coding_2021-01-22.html)
-* Model validation: [link to updated doc](docs/model_validation_2021-01-22.html)
+* Phenols: [link to doc](docs/protocol_variables_vs_phenols_2019-11-15.html)
+* Phthalates: [link to doc](docs/protocol_variables_vs_phthalates_2019-11-15.html)
+
+
 
