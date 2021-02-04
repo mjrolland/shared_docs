@@ -1,7 +1,6 @@
-# Docs for claire
+# 05/02/2021 meeting w/ johanna
 
-* Phenols: [link to doc](docs/protocol_variables_vs_phenols_2019-11-15.html)
-* Phthalates: [link to doc](docs/protocol_variables_vs_phthalates_2019-11-15.html)
+* Météo France stations + sélection for EHF: [link to doc](docs/meteo_france_2021-02-04.html)
 
 
 
