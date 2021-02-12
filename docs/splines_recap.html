@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="M. Rolland" />
 
+<meta name="date" content="2020-12-11" />
 
-<title>README.utf8</title>
+<title>Splines recap</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -422,14 +424,108 @@ summary {
 
 
 
+<h1 class="title toc-ignore">Splines recap</h1>
+<h4 class="author">M. Rolland</h4>
+<h4 class="date">12/11/2020</h4>
 
 </div>
 
 
-<div id="pour-ariane" class="section level1">
-<h1>pour ariane</h1>
+<div id="questions" class="section level1">
+<h1>questions</h1>
 <ul>
-<li>doc splines: <a href="docs/splines_recap.html">link to doc</a></li>
+<li>definition</li>
+<li>types of spline</li>
+<li>degrees of freedom</li>
+<li>smoothing vs regression spline?</li>
+</ul>
+</div>
+<div id="notes" class="section level1">
+<h1>notes</h1>
+<ul>
+<li>Penalized Cubic Regression Splines:</li>
+<li>P-Splines: B-spline basis with difference penalties</li>
+</ul>
+</div>
+<div id="spline" class="section level1">
+<h1>Spline</h1>
+<p>A ‘spline’ is a function that is constructed piece-wise from polynomial functions.</p>
+<p>a kth order spline is a piecewise polynomial function of degree k, that is continuous and has continuous derivatives of orders 1,…k−1, at its knot points</p>
+<p>Formally, a function f : R → R is a kth order spline with knot points at t1 &lt; … &lt; tm, if</p>
+<ul>
+<li>f is a polynomial of degree k on each of the intervals (−∞,t1],[t1,t2],…[tm,∞),</li>
+<li>f(j), the jth derivative of f, is continuous at t1,…tm, for each j= 0,1,…k−1.</li>
+</ul>
+</div>
+<div id="knots" class="section level1">
+<h1>Knots</h1>
+<p>2 boundary knots + N inside knots, spline passes through each knot, linear outside of boundary knots</p>
+<p>N≥0 are called ‘interior knots’ and there are always two endpoints, t0 and tN+1</p>
+<p>When the knots are equidistant they are said to be ‘uniform’, otherwise they are said to be ‘non-uniform’. One popular type of knot is the ‘quantile’ knot sequence where the interior knots are the quantiles from the empirical distribution of the underlying variable. Quantile knots guarantee that an equal number of sample observations lie in each interval while the intervals will have differentlengths (as opposed to different numbers of points lying in equal length intervals).</p>
+</div>
+<div id="cubic-spline" class="section level1">
+<h1>Cubic spline</h1>
+<p>The most common case considered is k = 3, i.e., that of cubic splines.</p>
+<p>The most common case considered isk= 3, i.e., that of cubic splines. These are piecewisecubic functions that are continuous, and have continuous first, and second derivatives. Notethat the continuity in all of their lower order derivatives makes splines very smoot</p>
+<p>Piecewise cubic polynomial (a * x³ + b * x² + c * x + d), linear outside knots, + extra contraints (continuous, derivarite and second derivative contiuous etc).</p>
+</div>
+<div id="natural-cubic-spline-aka-restricted-cubic-spline" class="section level1">
+<h1>Natural cubic spline (aka Restricted cubic spline)</h1>
+<p>Natural = second derivative at boundary knots = 0 ((S“(t0) = 0 and S”(tn) = 0))</p>
+<p>A natural cubic spline adds additional constraints, namely that thefunction is linear beyond the boundary knots.</p>
+<p>This frees up four degrees of freedom (two constraints each in bothboundary regions), which can be spent more profitably by puttingmore knots in the interior region.</p>
+<p>There will be a price paid in bias near the boundaries, but assumingthe function is linear near the boundaries (where we have lessinformation anyway) is often considered reasonable.</p>
+<p>A natural cubic spline with K knots has K degrees of freedom: it can ve represented by K basis functions.</p>
+<p>What distinguishes a restricted cubic spline from a cubic spline is that additional constraints are imposed on the restricted version such that the spline is linear before the first knot and after the last knot. This is done to improve performance of the spline in the tails of 𝑋.</p>
+</div>
+<div id="b-spline" class="section level1">
+<h1>B-spline</h1>
+<p>rom linear algebra, you may recall that abasisof a vectorspace is “a set ofVof elements of the vector space such that any element of the space can beexpressed uniquely as a linear combination of elements ofV”</p>
+<p>B-spline (“basis” spline): just a different way to express a spline (in basis functions, vector space “all possible spline functions can be built from a linear combination of B-splines”)</p>
+<p>“A B-spline function is the maximally differentiable interpolative basis function.”</p>
+<p>B-splines are defined by their ‘order’ m and number of interior ‘knots’ N (there are two ‘endpoints’ which are themselves knots so the total number of knots will be N + 2).</p>
+<p>B-spline basis allows for efficient computations even when the number of knots K is large (each basis function has a local support)</p>
+<p>While these basis functions are natural, a much better computational choice, both for speedand numerical accuracy, is theB-splinebasis</p>
+</div>
+<div id="smoothing-splines" class="section level1">
+<h1>Smoothing splines</h1>
+<p><strong>smoothing splines</strong> explicitly penalize roughness and use the data points themselves as potential knots whereas <strong>regression splines</strong> place knots at equidistant/equiquantile points</p>
+<p>Regression splines are a classic tool, and can work well provided we choose good knot points t1, …tm; but in general choosing knots is a tricky business. This is the beauty behind smoothing splines—with them, we don’t have to choose knots!</p>
+<p>In DLNM similar to smoothing splines we have the penalised spline (function “ps” and “cr”).</p>
+</div>
+<div id="penalised-spline-aka-p_spline" class="section level1">
+<h1>Penalised spline (aka P_spline)</h1>
+<p>As just discussed, there is an optimal number of knots that leads to an intermediate amountof smoothing that avoids under- or over-fitting the data. This optimal number can be foundby experimentation, but this can time intensive, especially if there are numerous, large,complicated datasets. Luckily there is another method, that of penalized splines, where inour model (Eq. 10),b1, b2, b3, . . . , bKare constrained in order to optimize the fit and avoidover fitting the data. In other words, weights are put onto each of the splines to penalizeover fitting of the data while still allowing the splines to fit the data well.The weightsare determined based upon some penalization criteria. There are several options for thepenalization criteria,</p>
+<p>Avoids the risk of “wiggliness”</p>
+<p>Why does this solve the problem of how many knots to use? Well, it only kind of does that. This solves the problem of not requiring a knot at every unique data point (a smoothing spline), but you still need to choose how many knots or basis functions to use. However, because the penalty shrinks the coefficients you can get away with choosing as large a basis dimension as you think is needed to contain either the true function or a close approximation to it, and then you let the penalty control how wiggly the estimated spline ultimately is, with the extra potential wiggliness available in the basis being removed or controlled by the penalty.</p>
+<p>The P-spline (Eilers and Marx 1996) penalises changes in the second derivative of the B-spline</p>
+<p>Just to make things more complicated, there is a type of spline basis known as a P-spline (Eilers &amp; Marx, 1996)), where the 𝑃 often gets interpreted as “penalized”. P-splines are a B-spline basis with a difference penalty applied directly to the model coefficients. In typical use the P-spline penalty penalizes the squared differences between adjacent model coefficients, which in turn penalises wiggliness. P-splines are very easy to set-up and result in a sparse penalty matrix which makes them very amenable to estimation of spline terms in MCMC based Bayesian models (Wood, 2017).</p>
+<p>The first smoother, labeled ps, is based on P-splines (Eilersand Marx, 1996), which offer good performance in multidi-mensional smoothing and both simplicity and flexibility in thepenalty definition. A second smoother, labeled cr, is based on cubic regres-sion splines with penalties on second derivatives.</p>
+<p>Estimation of lambda:</p>
+<p>Briefly, apenalized iterative reweighted least square (P-IRLS) methodis integrated with multiple smoothing parameter selection toestimate the degree of smoothness. Alternative methods areavailable for the estimation of the smoothing parametersλwithin P-IRLS, such as generalized cross validation (GCV),unbiased risk estimator (UBRE, essentially scaled AIC) and(restricted) maximum likelihood (REML and ML), all imple-mented using reliable and computationally efficient routines(Wood, 2008, 2011). Simulations indicate that REML and MLare superior in terms of mean-square error performance andsmoothing properties (Wood, 2011).</p>
+</div>
+<div id="degrees-of-freedom" class="section level1">
+<h1>Degrees of freedom</h1>
+<p>The degree of the B-spline polynomial will be the spline order m minus one (degree = m − 1).</p>
+<p><strong>A CONFIRMER</strong>: ce qui est estimé c’est la position du noeud, ensuite l’interpolation en elle même ne requiert pas de degré de liberté</p>
+<p>df: degrees of freedom, basically the dimension of the basis matrix. If supplied in the absence of knots, it automatically selects df+degree+2-intercept equally-spaced knots (within and beyond the range of x). The minimum df allowed is degree+1-intercept</p>
+<p>number of interior knots is df - degree (does not include boundary knots): df = knots + degree</p>
+<p>for cubic spline degree = 4</p>
+<p>A natural cubic spline with K knots has K degrees of freedom: it can be represented by K basis functions.</p>
+<p>ns: ns() then chooses df - 1 - intercept knots at suitably chosen quantiles of x (which will ignore missing values). The default, df = NULL, sets the number of inner knots as length(knots).</p>
+<p>ps: selects df + degree + 2 - intercept equally-spaced knots (within and beyond the range of x). The minimum df allowed is degree+1-intercept.</p>
+<p>(degree for cubic spline = 3)</p>
+</div>
+<div id="refs" class="section level1">
+<h1>Refs</h1>
+<p><a href="https://www.hds.utc.fr/~tdenoeux/dokuwiki/_media/en/splines.pdf" class="uri">https://www.hds.utc.fr/~tdenoeux/dokuwiki/_media/en/splines.pdf</a></p>
+<p><a href="https://www.stat.cmu.edu/~ryantibs/advmethods/notes/smoothspline.pdf" class="uri">https://www.stat.cmu.edu/~ryantibs/advmethods/notes/smoothspline.pdf</a></p>
+<p><a href="https://www.whitman.edu/Documents/Academics/Mathematics/Griggs.pdf" class="uri">https://www.whitman.edu/Documents/Academics/Mathematics/Griggs.pdf</a></p>
+<p><a href="https://bragqut.github.io/2016/05/24/samclifford-splines/" class="uri">https://bragqut.github.io/2016/05/24/samclifford-splines/</a></p>
+<p><a href="https://stats.stackexchange.com/questions/410515/how-different-are-restricted-cubic-splines-and-penalized-splines" class="uri">https://stats.stackexchange.com/questions/410515/how-different-are-restricted-cubic-splines-and-penalized-splines</a></p>
+<p>Gasparini 2017</p>
+<ul>
+<li>stackexchange</li>
 </ul>
 </div>
 

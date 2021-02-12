@@ -1,6 +1,6 @@
-# 05/02/2021 meeting w/ johanna
+# pour ariane
 
-* Météo France stations + sélection for EHF: [link to doc](docs/meteo_france_2021-02-04.html)
+* doc splines: [link to doc](docs/splines_recap.html)
 
 
 
