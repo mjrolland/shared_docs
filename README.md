@@ -1,6 +1,6 @@
-# pour ariane
+# pour emie
 
-* doc splines: [link to doc](docs/splines_recap.html)
+* doc ndvi: [link to doc](docs/ndvi_description_2021-03-11.html)
 
 
 
