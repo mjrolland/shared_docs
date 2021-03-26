@@ -1,6 +1,6 @@
-# pour emie
+# pour johanna
 
-* doc ndvi: [link to doc](docs/ndvi_description_2021-03-11.html)
+* dernière version des résultats: [lien vers doc](docs/main_results_2021-03-26.html)
 
 
 
