@@ -1,7 +1,7 @@
-# Updated results
+# Updated Preterm VS temp results
 
-* main analyses: [lien vers doc](docs/main_results_2021-04-13.html)
-* analyses 33 week fw: [lien vers doc](docs/main_results_2021-04-13_33-weeks-fw.html)
+* main analyses 200m model: [lien vers doc](docs/main_results_2021-04-29.html)
+* main analyses 1km model: [lien vers doc](docs/main_results_2021-04-13.html)
 
 
 
