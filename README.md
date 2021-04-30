@@ -6,3 +6,7 @@
 # Updated babylab analyses
 
 * latest results: [lien vers doc](docs/babylab_main_results_2021-04-29.html)
+
+# Git presentation
+
+* [link to pres](docs/git_for_beginners.html)
