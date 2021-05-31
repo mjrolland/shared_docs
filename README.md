@@ -1,3 +1,4 @@
-# Infant phenols batch description
+# Latests results - 28/05/2021
 
-* batch description doc: [link to doc](docs/description_per_batch.html)
+* free ~ conj regression on all infant phenol samples: [link to doc](docs/regression_free_conj.html)
+* updated babylab results: 
