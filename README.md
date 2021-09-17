@@ -1,4 +1,4 @@
-# Babylab models without exposure
+# Babylab correlation with neurodev scores
 
-* Document with model outputs : [link to doc](docs/main_results_2021-06-10.html)
+* Document with outputs : [link to doc](docs/correlation_babylab_neuro.html)
 
