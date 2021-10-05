@@ -1,4 +1,4 @@
-# For Johanna meeting 20-10-2020
+# Team presentation
 
-* Temp DNLMs [link to doc](docs/multivariate_model_2020-10-20.html)
+* Team pres temp slides [link to doc](docs/team_pres_2021-10-11.html)
 
