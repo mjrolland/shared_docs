@@ -1,4 +1,6 @@
-# Babylab correlation with neurodev scores
+# Team presentation
 
-* Document with outputs : [link to doc](docs/correlation_babylab_neuro.html)
+* Team pres temp slides [link to doc](docs/team_pres_2021-10-11.html)
 
+
+bla
